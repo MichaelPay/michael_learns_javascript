@@ -6,7 +6,7 @@ function getRandomNumber () {
 }
 
 
-alert( getRandomNumber() );
+// alert( getRandomNumber() );
 
 /*
 
@@ -23,3 +23,12 @@ alertRandom();
 
 */
 
+
+// A simple function that takes 2 parameters
+
+function getArea(length, width, unit) {
+    var area = length * width;
+    return area + ' ' + unit;
+}
+
+alert(getArea(parseFloat(prompt('What\'s the length?')), parseFloat(prompt('What\'s the width?')), prompt('What are the units?')));
