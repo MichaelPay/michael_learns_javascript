@@ -58,9 +58,9 @@ if ( prompt(q5).toUpperCase() === a5.toUpperCase()) {
 
 if (correctGuesses === 5) {
     alert('Nice! You got a gold crown! (' + correctGuesses + ' correct)');
-} else if (correctGuesses <5 && correctGuesses >2) {
+} else if (correctGuesses >2) {
     alert('Good job! You got a silver crown! (' + correctGuesses + ' correct)')
-} else if (correctGuesses < 3 && correctGuesses >0) {
+} else if (correctGuesses >0) {
     alert('You\'re doing good! You got a bronze crown! (' + correctGuesses + ' correct)')
 } else {
     alert('Better luck next time! You got no crowns! (' + correctGuesses + ' correct)')
